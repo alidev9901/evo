@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,46 +22,89 @@
                 <span class="nav-toggle__item"></span>
             </button>
         </div>
+        <div class="header__navigation">
+            <div class="header__navigation-container">
+                <nav class="nav header__nav">
+                    <ul class="nav__list header__nav-list">
+                        <li class="nav__item header__nav-item">
+                            <a class="nav__link header__nav-link" href="#">
+                                мы evolution
+                            </a>
+                        </li>
+                        <li class="nav__item header__nav-item header__nav-item--has-children">
+                            <a class="nav__link header__nav-link" href="#">
+                                создаем
+                            </a>
+                        </li>
+                        <li class="nav__item header__nav-item">
+                            <a class="nav__link header__nav-link" href="#">
+                                команда
+                            </a>
+                        </li>
+                        <li class="nav__item header__nav-item">
+                            <a class="nav__link header__nav-link" href="#">
+                                на связи
+                            </a>
+                        </li>
+                        <li class="nav__item header__nav-item">
+                            <a class="nav__link header__nav-link" href="#">
+                                подарок
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__navigation-bottom">
+                    <div class="header__our-nav-cube"></div>
+                    <nav class="nav header__our-nav cube cube--bottom">
+                        <ul class="nav__list header__our-nav-list">
+                            <li class="nav__item header__our-nav-item">
+                                <a class="nav__link header__our-nav-link" href="#">
+                                    <span>
+                                        Наш магазин
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav__item header__our-nav-item">
+                                <a class="nav__link header__our-nav-link" href="#">
+                                    <span>
+                                        Наша школа
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </div>
 </header>
     <main class="content" id="content">
-        <div class="container">
-            <div class="page">
-                <div class="swiper slider">
+        <div class="page">
+            <div class="container page__container">
+                <div class="swiper page__slider">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide slider__slide">
+                        <div class="swiper-slide page__slide">
                             <section class="section evolution">
                                 <div class="section__header">
-                                    <button class="btn slider__nav-button slider__nav-button--prev">
-                                        Предыдущий слайдер
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="34" viewBox="0 0 30 34" fill="none">
-                                            <path d="M29 1L0.999999 17L29 33L29 1Z" stroke="black" stroke-linejoin="round"/>
-                                        </svg>
-                                    </button>
                                     <h2 class="section__title">
                                         мы evolution
                                     </h2>
-                                    <button class="btn slider__nav-button slider__nav-button--next">
-                                        Следующий слайдер
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="34" viewBox="0 0 30 34" fill="none">
-                                            <path d="M1 1L29 17L1 33L1 1Z" stroke="black" stroke-linejoin="round"/>
-                                        </svg>
-                                    </button>
                                 </div>
                                 <div class="section__content evolution__content">
                                     <div class="evolution__thumb">
-                                        <img class="evolution__image" src="img/evolution.png" alt="">
+                                        <img src="img/evolution.png" alt="" class="evolution__img">
+                                        <img src="img/evolution-mobile.png" alt="" class="evolution__img evolution__img--mobile">
                                     </div>
-                                    <div class="evolution__info">
-                                        <div class="evolution__info-inner">
-                                            <div class="evolution__title-wrap">
-                                                <a class="evolution__title" href="#">
+                                    <div class="cube cube--top evolution__cube">
+                                        <div class="evolution__cube-content">
+                                            <div class="evolution__cube-link-wrap">
+                                                <a href="#" class="evolution__cube-link">
                                                     <span>
                                                         Создаём
                                                     </span>
                                                 </a>
                                             </div>
-                                            <div class="evolution__text">
+                                            <div class="evolution__cube-text">
                                                 C 2008 года наше креативное агентство занимается визуальным оформлением брендов, разработкой архитектурных и интерьерных решений, оформлением общественных пространств
                                             </div>
                                         </div>
@@ -69,16 +112,16 @@
                                 </div>
                             </section>
                         </div>
-                        <div class="swiper-slide slider__slide">
+                        <div class="swiper-slide page__slide">
                             
                         </div>
-                        <div class="swiper-slide slider__slide">
+                        <div class="swiper-slide page__slide">
                             
                         </div>
-                        <div class="swiper-slide slider__slide">
+                        <div class="swiper-slide page__slide">
                             
                         </div>
-                        <div class="swiper-slide slider__slide">
+                        <div class="swiper-slide page__slide">
                             
                         </div>
                     </div>
@@ -93,12 +136,12 @@
                 <ul class="nav__list footer__nav-list">
                     <li class="nav__item footer__nav-item">
                         <a class="nav__link footer__nav-link" href="#">
-                            Наш магазин
+                            наш магазин
                         </a>
                     </li>
                     <li class="nav__item footer__nav-item">
                         <a class="nav__link footer__nav-link" href="#">
-                            Наша школе
+                            наша школа
                         </a>
                     </li>
                 </ul>
